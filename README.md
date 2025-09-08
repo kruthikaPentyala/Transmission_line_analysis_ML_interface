@@ -8,22 +8,22 @@ A **Streamlit interface** is provided for interactive analysis and visualization
 
 ## 📌 Features
 - Compute **fundamental parameters**:  
-  - Characteristic impedance \(Z_0\)  
-  - Attenuation constant \(\alpha\)  
-  - Phase constant \(\beta\)  
+  - Characteristic impedance Z0​  
+  - Attenuation constant 𝛼 
+  - Phase constant β  
 
 - Compute **derived parameters** (from fundamentals):  
-  - Reflection coefficient (\(\Gamma\))  
-  - Input impedance (\(Z_{in}\))  
+  - Reflection coefficient (Γ)  
+  - Input impedance (Z_in)  
   - VSWR  
-  - Propagation velocity (\(v_p\))  
-  - Wavelength (\(\lambda\))  
-  - Time delay (\(\tau\))  
+  - Propagation velocity (v_p)  
+  - Wavelength (λ)  
+  - Time delay (𝜏)  
 
 - **Machine Learning Model**  
   - PyTorch MLP trained on synthetic dataset (2000+ samples).  
-  - Input: \([R, L, G, C, f, \Re(Z_L), \Im(Z_L)]\).  
-  - Output: \([Z0\_real, Z0\_imag, \alpha, \beta]\).  
+  - Input: [R, L, G, C, f, ℜ(ZL​), ℑ(ZL)].  
+  - Output: [Z0_real, Z0_imag, α, β].  
   - Accuracy: R² ≈ 0.95+ across test data.  
 
 - **Interactive Interface (Streamlit)**  
