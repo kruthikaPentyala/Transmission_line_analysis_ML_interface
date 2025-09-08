@@ -58,7 +58,7 @@ pip install torch scikit-learn numpy matplotlib streamlit joblib
 ```
 
 ## 🖼️ Streamlit Interface
-![Streamlit Interface](images/interface.png)
+![Streamlit Interface](interface.png)
 
 ---
 
